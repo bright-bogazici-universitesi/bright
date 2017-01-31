@@ -1,3 +1,5 @@
+// NOTE: Currently we are using webpack (mix), so it's not used.
+//       Maybe needed in the future.
 var gulp = require('gulp');
 var less = require('gulp-less');
 var browserSync = require('browser-sync').create();
