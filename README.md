@@ -47,5 +47,13 @@
 
 Now change the `YOUR_BLA_BLA` parts with your info.
 You can generate a key for `APP_KEY` with `php artisan key:generate`.
-
-- Contribute, commit, create a branch, make a pull request. Voila 👌
+- Create a branch (use kebabcase: all lowercase letters, separate words with `-`), make & commit your changes.
+- Before pushing your branch, rebase the remote origin:
+  ```
+  git pull --rebase origin master
+  ```
+- Push your branch:
+  ```
+  git push -u origin YOUR-BRANCH-NAME
+  ```
+- Make a pull request. Voila 👌
