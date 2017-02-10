@@ -115,6 +115,15 @@
             &.active {
               border-color: $gray-dark;
             }
+
+            &.subscribe-button {
+              border-color: $gray-dark;
+
+              &:hover {
+                background-color: $gray-lighter !important;
+                color: $gray-darker !important;
+              }
+            }
           }
         }
       }

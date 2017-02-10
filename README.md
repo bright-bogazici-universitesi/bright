@@ -65,3 +65,29 @@ git pull --rebase origin master
 git push -u origin YOUR-BRANCH-NAME
 ```
 - Make a [pull request](https://github.com/smddzcy/bright/compare). Voila 👌
+
+
+## TODO
+
+### Blog
+
+- [ ] Template and controller of blog posts.
+- [ ] Backend for moderators (writers of blog posts).
+- [ ] Backend for blog posts.
+- [ ] Moderator page for blog.
+We'll write the blog posts here. It should allow blog posts to be written in
+multiple languages, and support HTML and plain text entry.
+
+### Contact
+
+- [ ] Template and controller for contact form.
+- [ ] Backend for contact informations.
+- [ ] Email accounts for contact (who's gonna receive the contact requests?).
+
+### Knowledge Base
+
+- [ ] Backend for knowledge base. We should talk about this, details are not clear yet.
+
+### Programs & Events
+
+- [ ] I have no idea what these are. We should talk about these first.
