@@ -10,13 +10,13 @@ $space-between-navbar-els: 15px;
   @include sans-serif-font();
 
   .navbar-brand {
-    font-weight: 800;
+    font-weight: 700;
   }
 
   .navbar-header {
     .navbar-toggle {
       color: $gray-light;
-      font-weight: 800;
+      font-weight: 700;
       text-transform: uppercase;
       font-size: 12px;
     }

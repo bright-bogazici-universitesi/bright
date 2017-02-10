@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
   @include sans-serif-font();
-  font-weight: 800;
+  font-weight: 700;
 }
 
 a {
@@ -81,6 +81,7 @@ hr.small {
       margin-top: 0;
       margin-bottom: 30px;
       font-size: 35px;
+      font-weight: 600;
       @media only screen and (min-width: 768px) {
         font-size: 50px;
       }
@@ -308,7 +309,7 @@ form .row:first-child .floating-label-form-group {
   margin: 20px 0 0;
 
   li {
-     > a,
+    > a,
     > span {
       @include sans-serif-font();
       text-transform: uppercase;
