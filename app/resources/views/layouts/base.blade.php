@@ -17,10 +17,10 @@
     <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- Theme CSS -->
-    <link href="css/app.css" rel="stylesheet">
+    <link href="{{ URL::to('css/app.css') }}" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ URL::to('vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
 
@@ -51,16 +51,31 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="/">Home</a>
+                        <a class="{{ $page == 'home' ? 'active' : '' }}"
+                           href="/{{ $locale }}">{{ __('base.home') }}</a>
                     </li>
                     <li>
-                        <a href="/about">About</a>
+                        <a class="{{ $page == 'programs' ? 'active' : '' }}"
+                           href="/{{ $locale }}/programs">{{ __('base.programs') }}</a>
                     </li>
                     <li>
-                        <a href="/post">Sample Post</a>
+                        <a class="{{ $page == 'events' ? 'active' : '' }}"
+                           href="/{{ $locale }}/events">{{ __('base.events') }}</a>
                     </li>
                     <li>
-                        <a href="/contact">Contact</a>
+                        <a class="{{ $page == 'knowledge_base' ? 'active' : '' }}"
+                           href="/{{ $locale }}/knowledge-base">{{ __('base.knowledge_base') }}</a>
+                    </li>
+                    <li>
+                        <a class="{{ $page == 'contact' ? 'active' : '' }}"
+                           href="/{{ $locale }}/contact">{{ __('base.contact') }}</a>
+                    </li>
+                    <li>
+                        <a class="{{ $page == 'blog' ? 'active' : '' }}"
+                           href="/{{ $locale }}/blog">{{ __('base.blog') }}</a>
+                    </li>
+                    <li>
+                        <a class="subscribe-button">{{ __('base.subscribe') }}</a>
                     </li>
                 </ul>
             </div>
@@ -111,10 +126,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="{{ URL::to('vendor/jquery/jquery.min.js') }}"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/app.js"></script>
+    <script src="{{ URL::to('js/app.js') }}"></script>
 
 </body>
 

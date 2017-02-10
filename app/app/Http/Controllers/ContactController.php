@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomeController extends Controller
+class ContactController extends Controller
 {
   function index($locale) {
     app()->setLocale($locale);
 
-    return view('home', ['locale' => $locale]);
+    return view('contact', ['locale' => $locale]);
   }
 }

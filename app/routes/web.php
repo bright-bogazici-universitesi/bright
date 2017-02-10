@@ -11,13 +11,18 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
-Route::get('/about', function() {
-  return view('about');
+Route::get('/', function () {
+    return redirect('/en');
 });
-Route::get('/contact', function() {
-  return view('contact');
-});
-Route::get('/post', function() {
-  return view('post');
-});
+
+Route::get('/{locale}', 'HomeController@index');
+
+Route::get('/{locale}/programs', 'ProgramsController@index');
+
+Route::get('/{locale}/events', 'EventsController@index');
+
+Route::get('/{locale}/knowledge-base', 'KnowledgeBaseController@index');
+
+Route::get('/{locale}/contact', 'ContactController@index');
+
+Route::get('/{locale}/blog', 'BlogController@index');
