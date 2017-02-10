@@ -5,7 +5,7 @@
 ```
 git clone https://github.com/smddzcy/bright
 ```
-- Install the dependencies: (Make sure you have `npm` and `composer` installed)
+- Install the dependencies: (Make sure you have `npm`, `composer` and `mysql` installed)
 ```
 npm install && composer install
 ```
@@ -50,6 +50,10 @@ You can generate a key for `APP_KEY` with `php artisan key:generate`.
 ```
 php artisan serve
 npm run watch
+```
+- Open the application in your browser:
+```
+http://localhost:8000
 ```
 - Create a branch (use kebabcase: all lowercase letters, separate words with `-`), make & commit your changes.
 - Before pushing your branch, rebase the remote origin:
