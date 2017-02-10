@@ -41,8 +41,8 @@
                       color 0.1s ease-in-out;
 
           &:hover {
-            background-color: $gray-lighter !important;
-            color: $gray-darker !important;
+            background-color: $gray-lighter;
+            color: $gray-dark;
           }
         }
       }
@@ -86,10 +86,12 @@
     backface-visibility: hidden;
 
     &.is-fixed {
+      $fixed-nav-bg-color: fade-in(white, 0.9);
+
       /* when the user scrolls down, we hide the header right above the viewport */
       position: fixed;
       top: -65px;
-      background-color: fade-in(white, 0.9);
+      background-color: $fixed-nav-bg-color;
       border-bottom: 1px solid darken(white, 0.5);
       transition: transform 0.3s;
 
@@ -120,8 +122,8 @@
               border-color: $gray-dark;
 
               &:hover {
-                background-color: $gray-lighter !important;
-                color: $gray-darker !important;
+                background-color: $gray-dark !important;
+                color: $fixed-nav-bg-color !important;
               }
             }
           }
