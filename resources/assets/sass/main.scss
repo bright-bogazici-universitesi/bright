@@ -66,7 +66,7 @@ hr.small {
   .page-heading,
   .post-heading,
   .site-heading {
-    padding: 100px 0 50px;
+    padding: 100px 20px 50px;
     color: white;
     @media only screen and (min-width: 768px) {
       padding: 150px 0;
@@ -79,7 +79,11 @@ hr.small {
 
     h1 {
       margin-top: 0;
-      font-size: 50px;
+      margin-bottom: 30px;
+      font-size: 35px;
+      @media only screen and (min-width: 768px) {
+        font-size: 50px;
+      }
     }
 
     .subheading {
@@ -89,11 +93,6 @@ hr.small {
       @include sans-serif-font();
       font-weight: 300;
       margin: 10px 0 0;
-    }
-    @media only screen and (min-width: 768px) {
-      h1 {
-        font-size: 80px;
-      }
     }
   }
 

@@ -6,12 +6,9 @@
   <header class="intro-header" style="background-image: url('{{ URL::to('img/home-bg.jpg') }}')">
       <div class="container">
           <div class="row">
-              <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  <div class="site-heading">
-                      <h1>Bright</h1>
-                      <hr class="small">
-                      <span class="subheading">Magnificent Bright frontend.</span>
-                  </div>
+              <div class="site-heading">
+                  <h1>{{ __('home.hero_heading') }}</h1>
+                  <span class="subheading">{{ __('home.hero_subheading') }}</span>
               </div>
           </div>
       </div>

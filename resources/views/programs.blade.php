@@ -9,7 +9,7 @@
               <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   <div class="page-heading">
                       <h1>About Me</h1>
-                      <hr class="small">
+                      
                       <span class="subheading">This is what I do.</span>
                   </div>
               </div>
