@@ -55,4 +55,4 @@ git pull --rebase origin master
 ```
 git push -u origin YOUR-BRANCH-NAME
 ```
-- Make a pull request. Voila 👌
+- Make a [pull request](https://github.com/smddzcy/bright/compare). Voila 👌
