@@ -46,6 +46,11 @@ PUSHER_APP_SECRET=
 ```
 Now change the `YOUR_BLA_BLA` parts with your info.
 You can generate a key for `APP_KEY` with `php artisan key:generate`.
+- Before starting development, open the server and the bundling tool. Run these commands in 2 separate terminals (both in the base folder):
+```
+php artisan serve
+npm run watch
+```
 - Create a branch (use kebabcase: all lowercase letters, separate words with `-`), make & commit your changes.
 - Before pushing your branch, rebase the remote origin:
 ```
