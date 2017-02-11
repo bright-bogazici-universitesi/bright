@@ -23,7 +23,7 @@
 
     <div class="text-center col-md-{{ 12 / count($items) }}">
       <div>
-        <h3>{{ $item['name'] }}</h3>
+        <h3 style="margin-top: 0">{{ $item['name'] }}</h3>
       </div>
       <div class="icon">
         <i class="fa fa-4x fa-{{ $item['photo'] }}"></i>

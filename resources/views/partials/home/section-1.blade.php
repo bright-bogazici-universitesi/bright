@@ -9,10 +9,10 @@
 @section('extras')
 
   @foreach($items = [
-    ["icon" => "share-alt", "text" => "Tanış, Paylaş"],
-    ["icon" => "cogs", "text" => "Üret, Danış"],
-    ["icon" => "graduation-cap", "text" => "Öğren, Geliş"],
-    ["icon" => "line-chart", "text" => "Sonuç Al"]
+    ["icon" => "share-alt", "text" => __('home.section1_el1')],
+    ["icon" => "cogs", "text" => __('home.section1_el2')],
+    ["icon" => "graduation-cap", "text" => __('home.section1_el3')],
+    ["icon" => "line-chart", "text" => __('home.section1_el4')]
   ] as $item)
 
     <div class="text-center col-md-3 col-xs-12 col-sm-6">
