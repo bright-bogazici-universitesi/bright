@@ -27,4 +27,7 @@
 
   @include('partials.home.section-4')
 
+  @include('partials.home.subscribe-section')
+
+
 @endsection

@@ -49,3 +49,34 @@ section.block {
     }
   }
 }
+
+#subscribe-section {
+  .subscribe-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .email-col {
+      background-color: #ffffff;
+      border-color: #ccc;
+      flex: 1 0 auto;
+      max-width: 500px;
+
+      input {
+        position: absolute;
+        top: 20px;
+      }
+    }
+
+    .submit-col {
+      [type="submit"] {
+        height: 65px;
+        line-height: 35px;
+      }
+    }
+  }
+
+  .text-row {
+    margin-bottom: 0;
+  }
+}

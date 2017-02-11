@@ -222,6 +222,8 @@ footer {
 
 .floating-label-form-group {
   font-size: 14px;
+  min-height: 65px;
+  padding: 10px;
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
@@ -242,7 +244,6 @@ footer {
   }
 
   label {
-    display: block;
     z-index: 0;
     position: relative;
     top: 2em;
