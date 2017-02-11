@@ -9,7 +9,7 @@
               <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   <div class="page-heading">
                       <h1>About Me</h1>
-                      
+
                       <span class="subheading">This is what I do.</span>
                   </div>
               </div>
@@ -18,7 +18,7 @@
   </header>
 
   <!-- Main Content -->
-  <div class="container">
+  <div class="container margin-bottom-20">
       <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>

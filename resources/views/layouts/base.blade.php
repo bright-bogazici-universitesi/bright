@@ -91,8 +91,6 @@
 
     @yield('content')
 
-    <hr>
-
     <!-- Footer -->
     <footer>
         <div class="container">

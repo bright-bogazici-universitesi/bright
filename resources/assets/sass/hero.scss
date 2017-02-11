@@ -1,0 +1,28 @@
+.intro-header-hero {
+  height: 100vh;
+  min-height: 400px;
+  max-height: 900px;
+  margin-bottom: 0;
+
+  > .hero-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .bouncing-down-arrow {
+      display: none;
+
+      @media (min-width: $screen-sm-min) {
+        display: block;
+        color: white;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -150%);
+        opacity: 0.5;
+      }
+    }
+  }
+}

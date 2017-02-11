@@ -65,10 +65,10 @@ $space-between-navbar-els: 15px;
       }
     }
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: $screen-sm-min) {
     background: transparent;
     border-bottom: 1px solid transparent;
-    padding: 0 50px;
+    padding: 10px 50px;
 
     .navbar-brand {
       color: white;
@@ -105,10 +105,10 @@ $space-between-navbar-els: 15px;
       $fixed-nav-bg-color: fade-in(white, 0.9);
       /* when the user scrolls down, we hide the header right above the viewport */
       position: fixed;
-      top: -65px;
+      top: -85px;
       background-color: $fixed-nav-bg-color;
       border-bottom: 1px solid darken(white, 0.5);
-      transition: transform 0.3s;
+      transition: transform 0.3s, box-shadow 0.3s;
 
       .navbar-brand {
         color: $gray-dark;
@@ -157,6 +157,7 @@ $space-between-navbar-els: 15px;
     &.is-visible {
       /* if the user changes the scrolling direction, we show the header */
       transform: translate3d(0, 100%, 0);
+      box-shadow: 0 6px 9px $navbar-box-shadow-color;
     }
   }
 }

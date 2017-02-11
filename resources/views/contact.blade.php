@@ -9,7 +9,7 @@
               <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   <div class="page-heading">
                       <h1>Contact Me</h1>
-                      
+
                       <span class="subheading">Have questions? I have answers (maybe).</span>
                   </div>
               </div>
@@ -18,7 +18,7 @@
   </header>
 
   <!-- Main Content -->
-  <div class="container">
+  <div class="container margin-bottom-20">
       <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>

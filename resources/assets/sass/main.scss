@@ -24,6 +24,7 @@ h5,
 h6 {
   @include sans-serif-font();
   font-weight: 700;
+  line-height: 1.2;
 }
 
 a {
@@ -66,11 +67,8 @@ hr.small {
   .page-heading,
   .post-heading,
   .site-heading {
-    padding: 100px 20px 50px;
+    padding: 100px 20px;
     color: white;
-    @media only screen and (min-width: 768px) {
-      padding: 150px 0;
-    }
   }
 
   .page-heading,
@@ -82,7 +80,7 @@ hr.small {
       margin-bottom: 30px;
       font-size: 35px;
       font-weight: 600;
-      @media only screen and (min-width: 768px) {
+      @media only screen and (min-width: $screen-sm-min) {
         font-size: 50px;
       }
     }
@@ -125,7 +123,7 @@ hr.small {
         color: white;
       }
     }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: $screen-sm-min) {
       h1 {
         font-size: 55px;
       }
@@ -178,7 +176,7 @@ hr.small {
       }
     }
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: $screen-sm-min) {
     > a {
       > .post-title {
         font-size: 36px;
@@ -206,6 +204,7 @@ hr.small {
 }
 
 footer {
+  border-top: 1px solid $gray-lighter;
   padding: 50px 0 65px;
 
   .list-inline {
