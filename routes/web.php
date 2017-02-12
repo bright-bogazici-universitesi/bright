@@ -26,3 +26,7 @@ Route::get('/{locale}/knowledge-base', 'KnowledgeBaseController@index');
 Route::get('/{locale}/contact', 'ContactController@index');
 
 Route::get('/{locale}/blog', 'BlogController@index');
+
+Route::get('/{locale}/show-contact', 'ContactController@show');
+
+Route::post('/{locale}/send-contact', 'ContactController@send_contact');
