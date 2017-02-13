@@ -8,9 +8,10 @@
           <div class="row">
               <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   <div class="page-heading">
-                      <h1>Contact Me</h1>
-
-                      <span class="subheading">Have questions? I have answers (maybe).</span>
+                      <h1>{{ __('contacts.contact_me') }}</h1>
+                      <span class="subheading">
+                      {{ __('contacts.subheading') }}
+                      </span>
                   </div>
               </div>
           </div>
@@ -28,28 +29,28 @@
               {!! Form::open(array('url' => '/'.$locale.'/send-contact')) !!}
                 <div class="row control-group">
                       <div class="form-group col-xs-12 floating-label-form-group controls">
-                          <label>Name</label>
+                          <label> {{ __('contacts.name') }}</label>
                           {!! Form::text('name', null, ['class' => 'form-control', 'placeholder' => 'Name', 'id' => 'name', 'required' => 'true', 'data-validation-required-message' => 'Please enter your name.']) !!}
                           <p class="help-block text-danger"></p>
                       </div>
                   </div>
                   <div class="row control-group">
                       <div class="form-group col-xs-12 floating-label-form-group controls">
-                          <label>Email Address</label>
+                          <label>{{ __('contacts.email') }}</label>
                           {!! Form::email('email', null, ['class' => 'form-control', 'placeholder' => 'Email Address', 'id' => 'email', 'required' => 'true', 'data-validation-required-message' => 'Please enter your email address.']) !!}
                           <p class="help-block text-danger"></p>
                       </div>
                   </div>
                   <div class="row control-group">
                       <div class="form-group col-xs-12 floating-label-form-group controls">
-                          <label>Phone Number</label>
+                          <label>{{ __('contacts.phone_number') }}</label>
                           {!! Form::tel('phone_number', null, ['class' => 'form-control', 'placeholder' => 'Phone Number', 'id' => 'phone', 'required' => 'true', 'data-validation-required-message' => 'Please enter your phone number.']) !!}
                           <p class="help-block text-danger"></p>
                       </div>
                   </div>
                   <div class="row control-group">
                       <div class="form-group col-xs-12 floating-label-form-group controls">
-                          <label>Message</label>
+                          <label>{{ __('contacts.message') }}</label>
                           {!! Form::textarea('message', null, ['class' => 'form-control', 'placeholder' => 'Message', 'id' => 'message', 'required' => 'true', 'data-validation-required-message' => 'Please enter your message.', 'rows' => '5']) !!}
                           <p class="help-block text-danger"></p>
                       </div>
@@ -58,7 +59,7 @@
                   <div id="success"></div>
                   <div class="row">
                       <div class="form-group col-xs-12">
-                          {!! Form::submit('Send', ['class' => 'btn btn-default']) !!}
+                          {!! Form::submit(__('contacts.send'), ['class' => 'btn btn-default']) !!}
                       </div>
                   </div>
               {!! Form::close() !!}
