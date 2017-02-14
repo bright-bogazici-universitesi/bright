@@ -3,7 +3,7 @@
 ## Development
 - Clone this repository:
 ```
-git clone https://github.com/smddzcy/bright
+git clone https://github.com/bright-bogazici-universitesi/bright.git
 ```
 - Install the dependencies: (Make sure you have `npm`, `composer` and `mysql` installed)
 ```
