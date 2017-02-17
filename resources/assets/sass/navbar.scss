@@ -31,18 +31,19 @@ $space-between-navbar-els: 15px;
         &.active {
           border-bottom: 2px solid #fff;
         }
+        @media screen and (min-width: $screen-sm-min){
+          &.subscribe-button {
+            padding: 8px $space-between-navbar-els !important;
+            margin: 12px !important;
+            border: 1px solid #fff;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
 
-        &.subscribe-button {
-          padding: 8px $space-between-navbar-els !important;
-          margin: 12px !important;
-          border: 1px solid #fff;
-          border-radius: 20px;
-          cursor: pointer;
-          transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
-
-          &:hover {
-            background-color: $gray-lighter;
-            color: $gray-dark;
+            &:hover {
+              background-color: $gray-lighter;
+              color: $gray-dark;
+            }
           }
         }
       }
