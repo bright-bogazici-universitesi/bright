@@ -1,9 +1,9 @@
 <?php
 
 return [
-	'contact_me' => 'İletişim',
-	'subheading' => 'Have questions? I have answers (maybe).',
-	
+	'hero_heading' => 'İletişim',
+	'hero_subheading' => 'Have questions? I have answers (maybe).',
+
 	'name' => 'İsim',
 	'email' => 'Email',
 	'phone_number' => 'Telefon Numarası',

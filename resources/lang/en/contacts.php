@@ -1,8 +1,8 @@
 <?php
 
 return [
-	'contact_me' => 'Contact Me',
-	'subheading' => 'Have questions? I have answers (maybe).',
+	'hero_heading' => 'Contact Me',
+	'hero_subheading' => 'Have questions? I have answers (maybe).',
 
 	'name' => 'Name',
 	'email' => 'Email Address',

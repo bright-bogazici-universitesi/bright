@@ -8,9 +8,9 @@
           <div class="row">
               <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                   <div class="page-heading">
-                      <h1>{{ __('contacts.contact_me') }}</h1>
+                      <h1>{{ __('contacts.hero_heading') }}</h1>
                       <span class="subheading">
-                      {{ __('contacts.subheading') }}
+                      {{ __('contacts.hero_subheading') }}
                       </span>
                   </div>
               </div>

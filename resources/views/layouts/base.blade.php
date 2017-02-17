@@ -77,11 +77,6 @@
                     <li>
                         <a class="subscribe-button">{{ __('base.subscribe') }}</a>
                     </li>
-                    <li class="vertical-line"></li>
-                    <li class="shopping-bag">
-                      <span class="sr-only">{{ __('shopping_bag_icon') }}</span>
-                      <i class="fa fa-shopping-bag"></i>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
