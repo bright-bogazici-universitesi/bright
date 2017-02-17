@@ -4,8 +4,17 @@ section.block {
   justify-content: center;
   padding: 60px 0;
 
+  .text-col,
   .text-row {
     margin-bottom: 35px;
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
   }
 
   @media (min-width: $screen-xs-min) {
@@ -52,17 +61,6 @@ section.block {
 
       .text-col {
         float: left;
-      }
-    }
-
-    // Remove margins from text elements
-    .text-col {
-      h2 {
-        margin-top: 0;
-      }
-
-      p {
-        margin-bottom: 0;
       }
     }
   }
@@ -113,9 +111,5 @@ section.block {
         line-height: 35px;
       }
     }
-  }
-
-  .text-row {
-    margin-bottom: 0;
   }
 }

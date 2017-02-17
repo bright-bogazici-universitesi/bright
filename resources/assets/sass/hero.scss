@@ -21,7 +21,12 @@
         top: 100%;
         left: 50%;
         transform: translate(-50%, -150%);
+        transition: opacity 0.3s;
         opacity: 0.5;
+
+        &:hover {
+          opacity: 0.75;
+        }
       }
     }
   }

@@ -57,10 +57,14 @@ hr.small {
 // Header
 
 .intro-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: $gray-light;
   background: no-repeat center center;
   background-attachment: scroll;
   background-size: cover;
+  min-height: 400px;
   // NOTE: Background images are set within the HTML using inline CSS!
   margin-bottom: 50px;
 
