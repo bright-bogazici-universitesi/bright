@@ -19,8 +19,6 @@ Route::get('/{locale}', 'HomeController@index');
 
 Route::get('/{locale}/programs', 'ProgramsController@index');
 
-Route::get('/{locale}/events', 'EventsController@index');
-
 Route::get('/{locale}/knowledge-base', 'KnowledgeBaseController@index');
 
 Route::get('/{locale}/blog', 'BlogController@index');
