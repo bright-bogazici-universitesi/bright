@@ -93,6 +93,12 @@ section.block {
   }
 }
 
+#section-4 {
+  .section-4-img-block:nth-of-type(n+4) {
+    margin-top: 40px;
+  }
+}
+
 #subscribe-section {
   .subscribe-form {
     display: flex;
