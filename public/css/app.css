@@ -8387,14 +8387,14 @@ hr.small {
   background: no-repeat center center;
   background-attachment: scroll;
   background-size: cover;
-  min-height: 400px;
+  min-height: 450px;
   margin-bottom: 50px;
 }
 
 .intro-header .page-heading,
 .intro-header .post-heading,
 .intro-header .site-heading {
-  padding: 100px 20px;
+  padding: 125px 20px;
   color: white;
 }
 
@@ -8723,8 +8723,8 @@ body {
     border: 1px solid #fff;
     border-radius: 20px;
     cursor: pointer;
-    -webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
-    transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+    -webkit-transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
   }
 
   .navbar-custom .nav li a.subscribe-button:hover {
@@ -9001,7 +9001,7 @@ section.block.alternating-block:nth-of-type(odd) .text-col {
 
 .intro-header-hero {
   height: 100vh;
-  min-height: 400px;
+  min-height: 500px;
   max-height: 900px;
   margin-bottom: 0;
 }
@@ -9034,6 +9034,20 @@ section.block.alternating-block:nth-of-type(odd) .text-col {
 
 .intro-header-hero > .hero-container .down-arrow:hover {
   opacity: 0.75;
+}
+
+.intro-header-hero > .hero-container .cta-button {
+  margin-top: 50px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #eeeeee !important;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.intro-header-hero > .hero-container .cta-button:hover {
+  background-color: #eeeeee;
+  color: #333333;
 }
 
 .margin-bottom-20 {
