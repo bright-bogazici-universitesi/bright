@@ -33,9 +33,9 @@ section.block {
     background-color: $section-bg-odd;
   }
 
-  @media (max-width: $screen-xs-max) {
-    .text-under-icon {
-      margin-bottom: 40px;
+  @media (max-width: $screen-sm-max) {
+    .section-1-icon-text-block:nth-of-type(n+4) {
+      margin-top: 40px;
     }
   }
 
@@ -78,7 +78,15 @@ section.block {
     }
   }
 
-  @media (max-width: $screen-xs-max) {
+  @media (max-width: $screen-sm-max) {
+    .section-2-3-icon-text-block {
+      margin-top: 20px;
+    }
+
+    .row:first-of-type .section-2-3-icon-text-block {
+      margin-top: 0;
+    }
+
     .row.margin-bottom-20 {
       margin-bottom: 0;
     }
