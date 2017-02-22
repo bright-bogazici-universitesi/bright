@@ -23,11 +23,13 @@
     </div>
     <div class="row">
       <!-- Real partners should be wri -->
-      @foreach(['img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg'] as $item)
-      <div class="text-center col-md-3 col-xs-12 col-sm-6 partners">
-        <img src="{{ URL::to($item) }}"
-             class="img-responsive"
-             alt="partners">
+      @foreach(['https://kworks.ku.edu.tr/wp-content/uploads/sites/20/2016/04/plusclouds.png','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg','img/home-bg.jpg'] as $item)
+      <div class="text-center col-md-3 col-xs-12 col-sm-6">
+        <div class="partners">
+          <img src="{{ URL::to($item) }}"
+            class="img-responsive"
+            alt="partners">          
+        </div>
       </div>    
       @endforeach 
     </div>
