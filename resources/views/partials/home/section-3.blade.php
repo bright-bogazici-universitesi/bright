@@ -27,7 +27,7 @@
       ]
     ] as $item)
 
-      <div class="col-md-6">
+      <div class="section-2-3-icon-text-block col-md-6 col-xs-12">
         <div class="icon">
           <i class="fa fa-{{ $item['icon'] }}" style="font-size: 24px"></i>
         </div>
@@ -54,7 +54,7 @@
       ]
     ] as $item)
 
-      <div class="col-md-6">
+      <div class="section-2-3-icon-text-block col-md-6 col-xs-12">
         <div class="icon">
           <i class="fa fa-{{ $item['icon'] }}" style="font-size: 24px"></i>
         </div>
