@@ -3,6 +3,7 @@
 return [
   'hero_heading'    => 'Girişimciler yetiştiriyor, girişimlere yol gösteriyoruz.',
   'hero_subheading' => 'Bilgi birikimimizi ve kültürümüzü ekosistemle buluşturuyoruz.',
+  'cta_text'        => 'Programlarımızı İncele',
 
   // Section 1
   'section1_el1' => 'Tanış, Paylaş',

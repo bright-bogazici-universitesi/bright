@@ -11,7 +11,7 @@
                   <span class="subheading">{{ __('home.hero_subheading') }}</span>
                   <a class="btn btn-default cta-button"
                      href="/{{ $locale }}/programs">
-                     Our Freshest Program
+                     {{ strtoupper_tr(__('home.cta_text')) }}
                   </a>
               </div>
           </div>
