@@ -9,4 +9,10 @@ return [
   'section1_el2' => 'Make, Consult',
   'section1_el3' => 'Learn, Improve',
   'section1_el4' => 'Get Results',
+
+  // Section 2
+  'explore_programs' => 'Explore Our Programs',
+
+  // Section 4
+  'meet_board' => 'Meet the Community'
 ];
