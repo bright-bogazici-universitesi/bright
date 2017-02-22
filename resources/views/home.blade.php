@@ -11,7 +11,7 @@
                   <span class="subheading">{{ __('home.hero_subheading') }}</span>
               </div>
           </div>
-          <a class="bouncing-down-arrow"
+          <a class="down-arrow"
              href="#section-1">
             <i class="fa fa-2x fa-angle-down"></i>
           </a>
