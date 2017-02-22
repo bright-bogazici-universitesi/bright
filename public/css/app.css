@@ -8687,6 +8687,16 @@ body {
   -webkit-tap-highlight-color: #004a7f;
 }
 
+.partners {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 35px;
+}
+
+.partners img {
+  height: 121px;
+}
+
 .navbar-custom {
   position: absolute;
   top: 0;
