@@ -37,7 +37,7 @@
   <div class="row text-center margin-top-60">
     <a href="/{{ $locale }}/programs"
        class="btn btn-default cta-button cta-button-blue">
-         {{ strtoupper_tr(__('home.meet_board'), "UTF-8") }}
+         {{ $locale == 'tr' ? strtoupper_tr(__('home.meet_board')) : strtoupper(__('home.meet_board')) }}
        </a>
   </div>
 
