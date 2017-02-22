@@ -1,7 +1,7 @@
 @extends('partials.section-block')
 
 @section('id')
-  section-1
+  section-4
 @overwrite
 
 @section('heading')
@@ -21,7 +21,7 @@
     ["name" => "Yönetim Kurulu", "photo" => "user"]
   ] as $item)
 
-    <div class="text-center col-md-{{ 12 / count($items) }}">
+    <div class="section-4-img-block text-center col-md-3 col-xs-6">
       <div>
         <h3 style="margin-top: 0">{{ $item['name'] }}</h3>
       </div>
