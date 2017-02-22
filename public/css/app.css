@@ -8329,7 +8329,7 @@ body {
 
 p {
   line-height: 1.5;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 p a {
@@ -8875,11 +8875,6 @@ section.block {
   padding: 60px 0;
 }
 
-section.block .text-col,
-section.block .text-row {
-  margin-bottom: 35px;
-}
-
 section.block .text-col h2,
 section.block .text-row h2 {
   margin-top: 0;
@@ -8888,6 +8883,10 @@ section.block .text-row h2 {
 section.block .text-col p,
 section.block .text-row p {
   margin-bottom: 0;
+}
+
+section.block .text-row {
+  margin-bottom: 35px;
 }
 
 @media (min-width: 480px) {
@@ -8916,6 +8915,12 @@ section.block:nth-of-type(odd) {
 
 section.block.alternating-block:first-of-type {
   padding-top: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  section.block.alternating-block .img-col {
+    margin-bottom: 40px;
+  }
 }
 
 section.block.alternating-block:nth-of-type(even) .img-col {
