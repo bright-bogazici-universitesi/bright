@@ -9,12 +9,12 @@
               <div class="site-heading">
                   <h1>{{ __('home.hero_heading') }}</h1>
                   <span class="subheading">{{ __('home.hero_subheading') }}</span>
+                  <a class="btn btn-default cta-button"
+                     href="/{{ $locale }}/programs">
+                     Our Freshest Program
+                  </a>
               </div>
           </div>
-          <a class="subscribe-button cta-button"
-             href="/{{ $locale }}/programs">
-             Our Freshest Program
-          </a>
           <a class="bouncing-down-arrow"
              href="#section-1">
             <i class="fa fa-2x fa-angle-down"></i>

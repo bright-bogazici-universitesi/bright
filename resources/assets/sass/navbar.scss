@@ -39,7 +39,7 @@ $space-between-navbar-els: 15px;
             border: 1px solid #fff;
             border-radius: 20px;
             cursor: pointer;
-            transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+            transition: background-color 0.2s, color 0.2s;
 
             &:hover {
               background-color: $gray-lighter;

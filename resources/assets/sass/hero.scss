@@ -1,6 +1,6 @@
 .intro-header-hero {
   height: 100vh;
-  min-height: 450px;
+  min-height: 500px;
   max-height: 900px;
   margin-bottom: 0;
 
@@ -31,7 +31,16 @@
     }
 
     .cta-button {
+      margin-top: 50px;
+      background-color: transparent;
+      color: white;
+      border: 2px solid $gray-lighter !important;
+      transition: all 0.2s;
 
+      &:hover {
+        background-color: $gray-lighter;
+        color: $gray-dark;
+      }
     }
   }
 }
