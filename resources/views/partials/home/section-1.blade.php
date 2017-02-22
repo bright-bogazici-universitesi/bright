@@ -15,11 +15,11 @@
     ["icon" => "line-chart", "text" => __('home.section1_el4')]
   ] as $item)
 
-    <div class="text-center col-md-3 col-xs-12 col-sm-6">
+    <div class="text-center section-1-icon-text-block col-md-3 col-xs-6">
       <div class="icon">
         <i class="fa fa-3x fa-{{ $item['icon'] }}"></i>
       </div>
-      <div class="text-under-icon">
+      <div>
         <h3>{{ $item['text'] }}</h3>
       </div>
     </div>
