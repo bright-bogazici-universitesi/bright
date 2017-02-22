@@ -59,10 +59,6 @@
                            href="/{{ $locale }}/programs">{{ __('base.programs') }}</a>
                     </li>
                     <li>
-                        <a class="{{ $page == 'events' ? 'active' : '' }}"
-                           href="/{{ $locale }}/events">{{ __('base.events') }}</a>
-                    </li>
-                    <li>
                         <a class="{{ $page == 'knowledge_base' ? 'active' : '' }}"
                            href="/{{ $locale }}/knowledge-base">{{ __('base.knowledge_base') }}</a>
                     </li>
