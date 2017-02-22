@@ -1,0 +1,21 @@
+.cta-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid $gray-lighter !important;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $gray-lighter;
+    color: $gray-dark;
+  }
+
+  &.cta-button-blue {
+    color: $boun-blue;
+    border: 2px solid $boun-blue !important;
+
+    &:hover {
+      background-color: $boun-blue;
+      color: white;
+    }
+  }
+}
