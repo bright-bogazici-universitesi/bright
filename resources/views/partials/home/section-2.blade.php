@@ -68,7 +68,7 @@
     @endforeach
   </div>
 
-  <div class="row text-center margin-top-50">
+  <div class="row text-center margin-top-60">
     <a href="/{{ $locale }}/programs"
        class="btn btn-default cta-button cta-button-blue">
          {{ __('home.explore_programs') }}

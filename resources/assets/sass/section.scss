@@ -21,7 +21,7 @@ section.block {
     padding: 100px 0;
 
     .text-row {
-      margin-bottom: 50px;
+      margin-bottom: 60px;
     }
   }
 
@@ -75,6 +75,12 @@ section.block {
 
     .icon {
       flex: 0 0 40px;
+    }
+  }
+
+  .section-2-3-icon-text-block {
+    h3 {
+      margin-top: 0;
     }
   }
 
