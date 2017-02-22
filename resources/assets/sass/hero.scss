@@ -1,6 +1,6 @@
 .intro-header-hero {
   height: 100vh;
-  min-height: 400px;
+  min-height: 500px;
   max-height: 900px;
   margin-bottom: 0;
 
@@ -11,22 +11,30 @@
     justify-content: center;
     position: relative;
 
-    .bouncing-down-arrow {
-      display: none;
+    .down-arrow {
+      color: white;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -150%);
+      transition: opacity 0.3s;
+      opacity: 0.5;
 
-      @media (min-width: $screen-sm-min) {
-        display: block;
-        color: white;
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translate(-50%, -150%);
-        transition: opacity 0.3s;
-        opacity: 0.5;
+      &:hover {
+        opacity: 0.75;
+      }
+    }
 
-        &:hover {
-          opacity: 0.75;
-        }
+    .cta-button {
+      margin-top: 50px;
+      background-color: transparent;
+      color: white;
+      border: 2px solid $gray-lighter !important;
+      transition: all 0.2s;
+
+      &:hover {
+        background-color: $gray-lighter;
+        color: $gray-dark;
       }
     }
   }

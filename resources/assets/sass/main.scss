@@ -64,14 +64,14 @@ hr.small {
   background: no-repeat center center;
   background-attachment: scroll;
   background-size: cover;
-  min-height: 400px;
+  min-height: 450px;
   // NOTE: Background images are set within the HTML using inline CSS!
   margin-bottom: 50px;
 
   .page-heading,
   .post-heading,
   .site-heading {
-    padding: 100px 20px;
+    padding: 125px 20px;
     color: white;
   }
 
@@ -370,4 +370,13 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: $theme-primary;
+}
+
+.partners{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 35px;
+  img{
+    height: 121px
+  }
 }
