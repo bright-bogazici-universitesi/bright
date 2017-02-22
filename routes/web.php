@@ -32,3 +32,4 @@ Route::get('/{locale}/contact', 'ContactController@index');
 Route::get('/{locale}/show-contact', 'ContactController@show');
 Route::post('/{locale}/send-contact', 'ContactController@send_contact');
 
+Route::get('/{locale}/partners', 'PartnerController@index');
