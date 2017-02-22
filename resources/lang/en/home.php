@@ -3,6 +3,7 @@
 return [
   'hero_heading'    => 'We train entrepreneurs and guide the startups.',
   'hero_subheading' => 'We connect our knowledge and culture with the ecosystem.',
+  'cta_text'        => 'See Our Programs',
 
   // Section 1
   'section1_el1' => 'Meet, Share',

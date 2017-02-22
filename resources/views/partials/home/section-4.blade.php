@@ -37,7 +37,7 @@
   <div class="row text-center margin-top-60">
     <a href="/{{ $locale }}/programs"
        class="btn btn-default cta-button cta-button-blue">
-         {{ __('home.meet_board') }}
+         {{ strtoupper_tr(__('home.meet_board'), "UTF-8") }}
        </a>
   </div>
 
