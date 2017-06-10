@@ -9,7 +9,7 @@
 @overwrite
 
 @section('description')
-  Bültenlerimizi almak ve sistemimize kayıt olmak için lütfen abone olun.
+  Bültenlerimizi almak ve programlarımızdan haberdar olmak için abone ol.
 @overwrite
 
 @section('extras')
@@ -22,7 +22,7 @@
                required data-validation-required-message="Please enter your email address.">
     </div>
     <div class="form-group submit-col">
-        <a type="submit" class="btn btn-default">Send</a>
+        <a type="submit" class="btn btn-default">Katıl</a>
     </div>
   </div>
 @overwrite

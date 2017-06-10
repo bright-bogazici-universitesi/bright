@@ -8395,7 +8395,9 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .site-heading {
   padding: 125px 20px;
-  color: white;
+  color: #24B47E;
+
+
 }
 
 .intro-header .page-heading,
@@ -8408,7 +8410,7 @@ hr.small {
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 35px;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 @media only screen and (min-width: 768px) {
@@ -9021,6 +9023,7 @@ section.block.alternating-block:nth-of-type(odd) .text-col {
   min-height: 500px;
   max-height: 900px;
   margin-bottom: 0;
+
 }
 
 .intro-header-hero > .hero-container {

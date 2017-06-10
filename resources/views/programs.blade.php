@@ -29,4 +29,7 @@
     ])
   @endforeach
 
+  @include('partials.home.subscribe-section')
+
+
 @endsection

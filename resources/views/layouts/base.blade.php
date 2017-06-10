@@ -44,32 +44,39 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="/">BRIGHT</a>
+                <a class="navbar-brand" href= "/{{ $locale }}" >BRIGHT</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
+                <!--    <li>
                         <a class="{{ $page == 'home' ? 'active' : '' }}"
                            href="/{{ $locale }}">{{ __('base.home') }}</a>
+                    </li>  -->
+                    <li>
+                        <a class="{{ $page == 'knowledge_base' ? 'active' : '' }}"
+                           href="/{{ $locale }}/knowledge-base">{{ __('base.knowledge_base') }}</a>
                     </li>
+
                     <li>
                         <a class="{{ $page == 'programs' ? 'active' : '' }}"
                            href="/{{ $locale }}/programs">{{ __('base.programs') }}</a>
                     </li>
                     <li>
-                        <a class="{{ $page == 'knowledge_base' ? 'active' : '' }}"
-                           href="/{{ $locale }}/knowledge-base">{{ __('base.knowledge_base') }}</a>
+                        <a class="{{ $page == 'partners' ? 'active' : '' }}"
+                           href="/{{ $locale }}/partners">{{ __('base.partners') }}</a>
                     </li>
+
                     <li>
                         <a class="{{ $page == 'contact' ? 'active' : '' }}"
                            href="/{{ $locale }}/contact">{{ __('base.contact') }}</a>
                     </li>
-                    <li>
+              <!--  <li>
                         <a class="{{ $page == 'blog' ? 'active' : '' }}"
                            href="/{{ $locale }}/blog">{{ __('base.blog') }}</a>
                     </li>
+                  -->
                     <li>
                         <a class="subscribe-button">{{ __('base.subscribe') }}</a>
                     </li>
@@ -89,7 +96,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
                         <li>
-                            <a href="#">
+                            <a target="_blank" href="https://twitter.com/bogazicigirisim">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -97,7 +104,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a target="_blank" href="https://www.facebook.com/bogazicigirisimcilik">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -105,10 +112,10 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a target="_blank" href="https://www.linkedin.com/in/bogazicigirisimcilik/">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>

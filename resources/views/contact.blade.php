@@ -3,26 +3,30 @@
 @section('content')
   <!-- Page Header -->
   <!-- Set your background image for this header on the line below. -->
-  <header class="intro-header" style="background-image: url('{{ URL::to('img/contact-bg.jpg') }}')">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  <div class="page-heading">
-                      <h1>{{ __('contacts.hero_heading') }}</h1>
-                      <span class="subheading">
-                      {{ __('contacts.hero_subheading') }}
-                      </span>
-                  </div>
+  <header class="intro-header" style="background-image: url('{{ URL::to('img/contacts.jpeg') }}')">
+
+  </header>
+
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="page-heading">
+                  <h1>{{ __('contacts.hero_heading') }}</h1>
+                  <span class="subheading">
+                  {{ __('contacts.hero_subheading') }}
+                  </span>
+                  <p> Boğaziçi Üniversitesi Girişimcilik Uygulama ve Araştırma Merkezi <br> Kuzey Kampüs Eta B Blok Kat 4 <br> gm@boun.edu.tr <br> +90 212 359 47 78</p>
               </div>
           </div>
       </div>
-  </header>
+  </div>
 
   <!-- Main Content -->
   <div class="container margin-bottom-20">
       <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
+              {{ __('contacts.form_description') }}
+
               <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
               <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
               <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
@@ -51,7 +55,7 @@
                   <div class="row control-group">
                       <div class="form-group col-xs-12 floating-label-form-group controls">
                           <label>{{ __('contacts.message') }}</label>
-                          {!! Form::textarea('message', null, ['class' => 'form-control', 'placeholder' => 'Message', 'id' => 'message', 'required' => 'true', 'data-validation-required-message' => 'Please enter your message.', 'rows' => '5']) !!}
+                          {!! Form::textarea('message', null, ['class' => 'form-control', 'placeholder' => 'Message', 'id' => 'message', 'required' => 'true', 'data-validation-required-message' => 'Please enter your message.', 'rows' => '2']) !!}
                           <p class="help-block text-danger"></p>
                       </div>
                   </div>

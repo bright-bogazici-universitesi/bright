@@ -5,6 +5,7 @@ return [
   'home'              => 'Anasayfa',
   'programs'          => 'Programlar',
   'knowledge_base'    => 'Bilgi Bankası',
+  'partners'          => 'İş Ortaklarımız',
   'contact'           => 'İletişim',
   'blog'              => 'Blog',
   'subscribe'         => 'Abone Ol',

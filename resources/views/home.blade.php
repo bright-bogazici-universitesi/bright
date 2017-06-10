@@ -3,7 +3,7 @@
 @section('content')
   <!-- Page Header -->
   <!-- Set your background image for this header on the line below. -->
-  <header class="intro-header intro-header-hero" style="background-image: url('{{ URL::to('img/home-bg.jpg') }}')">
+  <header class="intro-header intro-header-hero" style="background-image: url('{{ URL::to('img/hero.jpeg') }}')">
       <div class="container hero-container">
           <div class="row">
               <div class="site-heading">

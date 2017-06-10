@@ -1,8 +1,8 @@
 <?php
 
 return [
-	'hero_heading' => 'Ders',
+	'hero_heading' => 'Çözüm Ortaklarımız',
 	'hero_subheading' => 'Some important subheading',
-	'heading' => 'Our Strategic Partners',
+	'heading' => 'Such partners much wow',
 	'subheading' => 'So much information about Strategic Partners...'
 ];

@@ -16,7 +16,7 @@
 
   <div class="row">
     @foreach($items = [
-      ["name" => "Yönetim Kurulu", "photo" => "user"],
+      ["name" => "Akcan", "photo" => "dd" ],
       ["name" => "Yönetim Kurulu", "photo" => "user"],
       ["name" => "Yönetim Kurulu", "photo" => "user"],
       ["name" => "Yönetim Kurulu", "photo" => "user"]
