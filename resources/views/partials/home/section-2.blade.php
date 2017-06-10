@@ -9,7 +9,7 @@
 @overwrite
 
 @section('description')
-  Buraya bir açıklama gelebilir.
+  Gönüllü öğrencilerimizin çalışmalarıyla çeşitli projeler yürütüyoruz.
 @overwrite
 
 @section('extras')
@@ -18,8 +18,9 @@
     @foreach($items = [
       [
         "icon" => "book",
-        "heading" => "Bilgi Üretimi",
-        "description" => "Referans oluşturacak bilgi bankası, vaka çalışmaları, girişimcilik değerlendirmesi, Boğaziçi yetenekleri ile şirketleri buluşturan problem çözme programları."
+        "heading" => "Bilgi Bankası",
+        "description" => "Girişimlere referans oluşturacak bir kaynak olup,
+        girişimcilere iş fikirlerini hayata geçirirken ihtiyaç duyacakları birçok bilgiye ulaşma imkanı sağlamaktadır."
       ],
       [
         "icon" => "hand-peace-o",
@@ -45,13 +46,15 @@
     @foreach($items = [
       [
         "icon" => "users",
-        "heading" => "Kişi Ağı",
-        "description" => "Mezunlar ve öğrenciler için girişimcilik envanteri, takım kurmak, fikir bulmak ve şirket kurmak isteyenler için eşleştirme programları."
+        "heading" => "Let's Start(up)",
+        "description" => "Takım oluşturmak, startup kurmak ve girişimine destek bulmak isteyenler
+        için yıl boyunca düzenlenen tanışma ve eşleştirme programlarıdır."
       ],
       [
         "icon" => "question",
         "heading" => "Farkındalık Programları",
-        "description" => "Okuldaki girişimcilik kültürünü geliştirmek üzere eğitici etkinliklerin yanı sıra, yol gösterici eğitimler, kişisel farkındalık oluşturma, rol modelleri ile kariyer planlaması, motivasyon ve destek programları."
+        "description" => "Okuldaki girişimcilik kültürünü geliştirmek üzere planlanmış
+         Startup Carnival, Let’s Begin, Start Now How ve Tech Influencers gibi eğitici ve yol gösterici programlardır."
       ]
     ] as $item)
 
