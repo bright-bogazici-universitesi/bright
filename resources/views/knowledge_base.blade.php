@@ -17,14 +17,91 @@
       </div>
   </header>
 
-  <!-- Main Content -->
-  <div class="container margin-bottom-20">
-      <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>
-          </div>
-      </div>
+
+
+
+
+
+<div class="row">
+    <nav class="col-sm-4">
+      <u1 class="nav nav-pills nav-stacked">
+
+ <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Dropdown <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li>a1</li>
+      <li>a1</li>
+      <li>a1</li>
+    </ul>
+  </li>
+
+   <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Dropdown <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      <li>a1</li>
+      <li>a1</li>
+      <li>a1</li>
+    </ul>
+  </li>
+ 
+
+     </u1>
+  </nav>
+
+
+  <div class="col-sm-8">
+
+      <section id="1">
+        <article id="11">
+          <h2>Mavi Liman</h2>
+          <p>Beni o limana çıkaramazsın</p>
+        </article>
+
+        <article id="12">
+          <h2>Sarı Liman</h2>
+          <p>Beni o limana çıkaramazsın</p>
+        </article>
+
+        <article id="13">
+          <h2>Yeşil Liman</h2>
+          <p>Beni o limana çıkaramazsın</p>
+        </article>       
+      </section>
+
+
+      <section id="2">
+        <article id="21">
+          <h2>Mavi Liman</h2>
+          <p>Beni o limana çıkaramazsın</p>
+        </article>
+
+        <article id="22">
+          <h2>Sarı Liman</h2>
+          <p>Beni o limana çıkaramazsın</p>
+        </article>
+
+        <article id="23">
+          <h2>Yeşil Liman</h2>
+          <p>Beni o limana çıkaramazsın</p>
+        </article>       
+      </section>
+
+
+
+
+
+
+
   </div>
+  
+
+
+</div>
+
+
+
 @endsection

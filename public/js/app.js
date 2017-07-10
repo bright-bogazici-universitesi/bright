@@ -1,4 +1,7 @@
-/******/ (function(modules) { // webpackBootstrap
+
+
+
+(function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 
@@ -32466,3 +32469,5 @@ module.exports = __webpack_require__(10);
 
 /***/ })
 /******/ ]);
+
+$('.dropdown-toggle').dropdown()
